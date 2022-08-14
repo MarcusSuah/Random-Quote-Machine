@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=:Courier New 400,500'); */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+@media container and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div{
+      font-size: 30px;
+    }
+  }
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #bea7b9;
+  color: #2529d8;
+  font-family: 'Courier New', sans-serif;
+  font-weight: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 1.8em;
+  color: #de0f17;
+  cursor:auto;
+}
+  a {
+    font-weight: 500px;
+    text-decoration: none;
+    color: #de0f17;
+    cursor: auto;
+  }
+
+#quote-box {
+  border-radius: 6px;
+  position: relative;
+  margin:8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+  /* .quote-text { */
+    .quote-box {
+      font-size: 1.8em;
+      margin-right: 0.4em;
+    }
+    .quote-text{
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+    }
+
+    .button {
+      height: 38px;
+      border: solid;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #333;
+      outline: none;
+      font-size: 0.85em;
+      padding: 8px 18px 6px 18px;
+      margin-top: 30px;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .a:hover {
+        opacity: 0.9;
+        color: aqua;
+        cursor: default;
+      }
+      #new-quote {
+        float: right;
+        color: #de0f17;
+        border-style: solid;
+        border-width: 25px 10px 4px 35px;
+        border: 2px solid green;
+        border-radius: 6px;
+        
+      }
+.card{
+    text-align:left;
+    font-size: 20px;
+}
+.card-header{
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #e8e7d5;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
